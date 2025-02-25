@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    background-color: #deae6e;
+}
+
+.navigationsleiste {
+    background-color: #ff8c00;
+    padding: 20px 20px;
+    box-shadow: 0px 4px 10px;
+}
+
+.navigationsleiste ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigationsleiste ul li {
+    font-size: 20px;
+    margin: 0px 65px;
+    font-family: 'Sigmar', sans-serif;
+}
+
+.navigationsleiste ul li a:hover {
+    background-color: rgb(200, 80, 0);
+    border-radius: 5px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.fussleiste {
+    background-color: #d77103;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
